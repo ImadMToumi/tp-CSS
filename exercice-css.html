@@ -5,6 +5,37 @@
 
     <link rel="stylesheet" href="style2.css">
     <title>Exercice</title>
+    <style media="screen">
+    table{
+      font-family :serif ;
+      border
+    }
+
+
+    th{
+      border : 1px solid #DCDCDC;
+      text-align : left ;
+      padding :8px;
+      border-right: transparent;
+      border-left: transparent;
+
+    }
+
+
+
+    tr:nth-child(even){
+      background-color : white ;
+    }
+    tr:nth-child(odd){
+      background-color : #EEF7FF;
+    }
+    tr:first-child{
+      background : #2B65EC;
+      color: white ;
+      text_align : center ;
+
+      }
+    </style>
   </head>
   <body>
     <h1>Triangle</h1>
@@ -20,7 +51,7 @@
     <br>
     <div id="container">
 
-      
+
       <div id="h1">
 
             <h1>Virtualisation</h1>
@@ -41,6 +72,45 @@
 
 
     </div>
+    <table>
+      <tbody>
+        <tr class ="title">
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr class ="1e">
+          <th>Alfreds Futterkiste</th>
+          <th>Maria Anders</th>
+          <th>Germany</th>
+        </tr>
+        <tr>
+          <th>Centro comercial Moctezuma</th>
+          <th>Francisco Chang</th>
+          <th>Mexico</th>
+        </tr>
+        <tr class ="2e">
+          <th>Ernst Handel</th>
+          <th>Roland Mendel</th>
+          <th>Austria</th>
+        </tr>
+        <tr class ="1e">
+          <th>Island Trading</th>
+          <th>Helen Bennett</th>
+          <th>UK</th>
+        </tr>
+        <tr class ="2e">
+          <th>Laughing Bacchus Winecellars</th>
+          <th>Yoshi Tannamuri</th>
+          <th>Canada</th>
+        </tr>
+        <tr class ="1e">
+          <th>Magazzini Alimentari Riuniti</th>
+          <th>Giovanni Rovelli</th>
+          <th>Italy</th>
+        </tr>
+      </tbody>
+    </table>
 
   </body>
 </html>
